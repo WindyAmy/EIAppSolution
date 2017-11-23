@@ -1,5 +1,6 @@
 ﻿using System.Xml;
 using System.Data;
+using System.Web;
 
 namespace DotNet.Utilities
 {
@@ -267,6 +268,13 @@ namespace DotNet.Utilities
             //    el.Element("user").Value = "LiuBin";//开始修改
             //}
             //xelem.Save(path);
+        }
+
+        private static string GetPath(string virtualPath)
+        {
+
+            return HttpContext.Current.Server.MapPath(virtualPath);
+
         }
     }
 }
