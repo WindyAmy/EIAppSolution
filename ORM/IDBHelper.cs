@@ -8,7 +8,7 @@ namespace ORM
     #region DBHelper接口
 
     /// <summary>
-    /// DBHelper接口
+    /// DBHelper接口111
     /// </summary>
     public interface IDBHelper
     {
