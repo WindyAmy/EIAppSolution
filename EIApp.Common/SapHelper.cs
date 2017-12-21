@@ -32,7 +32,7 @@ namespace EIApp.Common
 
         #region 私有方法
 
-        #region 连接及调用SAP方法
+        #region 连接及1调用SAP方法
 
         /// <summary>
         /// 初始化SAP 连接参数
